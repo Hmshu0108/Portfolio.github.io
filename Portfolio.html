@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HS Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #25274D;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: #464866;
+
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover {
+        color: #b881ec;
+        font-size: 1.02rem;
+    }
+
+    .left {
+        font-size: 1.8rem;
+    }
+
+    .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 63px 46px;
+        align-items: center;
+
+    }
+
+    .firstsection>div {
+        width: 40%;
+    }
+
+    .leftsection {
+        font-size: 2.6rem;
+        /* margin:30px; */
+    }
+
+    .rightsection img {
+        width: 70%;
+        height: 80%;
+        border-radius: 10px;
+    }
+
+    .name {
+        color: #7b1dd3;
+    }
+
+    #element {
+        color: #7b1dd3;
+    }
+
+    main hr {
+
+        border: 0;
+        border-style: dotted;
+        height: 1px;
+        width: 65%;
+        position: relative;
+        margin: 30px auto;
+        background-color: #5144cd;
+
+
+    }
+
+    .secondsection {
+
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+    }
+
+    .secondsection h1 {
+        font-size: 1.73rem;
+    }
+
+    .work {
+        color: grey;
+        margin: auto;
+    }
+
+    .secondsection .box {
+        background-color: white;
+        width: 75vw;
+        height: 2px;
+        margin: 64px 0;
+        display: flex;
+    }
+
+    .vertical {
+        background-color: white;
+        height: 80px;
+        width: 1px;
+        margin: 0px 140px;
+    }
+
+    #html {
+        width: 33px;
+        position: relative;
+        top: -34px;
+        left: -16px;
+    }
+
+    #css {
+        width: 23px;
+        position: relative;
+        top: -34px;
+        left: -11px;
+    }
+
+    #js {
+        width: 23px;
+        position: relative;
+        top: -34px;
+        left: -12px;
+    }
+
+    #linux {
+        width: 56px;
+        position: relative;
+        top: -34px;
+        left: -26px;
+    }
+    
+    .verticaltitle{
+        position: relative;
+        top:38px;
+        width:150px;
+    }
+
+    .desc{
+        width:150px;
+        font-size:9px;
+        color:grey;
+        position: relative;
+        top:38px;
+
+}
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Himanshu's Portfolio </div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Me</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi my name is <span class="name">Himanshu</span>
+                <div> I am a </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="./3426526.jpg" alt="Web developer">
+            </div>
+        </section>
+        <hr>
+
+        <section class="secondsection">
+            <div>
+                <h1>Work Experience</h1>
+                <span class="work">What I have done so far</span>
+            </div>
+            <div class="box">
+                <div class="vertical">
+                    <img src="./html_image.png" alt="" id="html">
+                    <div class="verticaltitle">
+                        HTML Developer
+                    </div>
+                    <div class="desc">
+                        Developed many professional website since 2020
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis nostrum magnam ut! Tenetur
+                        minima ea harum quos expedita magni quis impedit totam.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="./CSS_image.png" alt="" id="css">
+                    <div class="verticaltitle">
+                        CSS Developer
+                    </div>
+                    <div class="desc">
+                        Developed many professional website since 2020
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis nostrum magnam ut! Tenetur
+                        minima ea harum quos expedita magni quis impedit totam.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="./javascript_image.png" alt="" id="js">
+                    <div class="verticaltitle">
+                        Javascript Developer
+                    </div>
+                    <div class="desc">
+                        Developed many professional website since 2020
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis nostrum magnam ut! Tenetur
+                        minima ea harum quos expedita magni quis impedit totam.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="./linux_image.png" alt="" id="linux">
+                    <div class="verticaltitle">
+                        Linux
+                    </div>
+                    <div class="desc">
+                        Developed many professional website since 2020
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis nostrum magnam ut! Tenetur
+                        minima ea harum quos expedita magni quis impedit totam.
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+</body>
+
+</html>
